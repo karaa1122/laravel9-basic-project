@@ -23,7 +23,7 @@ $allfooter = App\Models\Footer::find(1);
                         <div class="footer__widget">
                             <div class="fw-title">
                                 <h5 class="sub-title">my address</h5>
-                                <h4 class="title">AUSTRALIA</h4>
+                                <h4 class="title">Kurdistan</h4>
                             </div>
                             <div class="footer__widget__address">
                                 <p>{{ $allfooter->adress }}</p>
@@ -35,16 +35,14 @@ $allfooter = App\Models\Footer::find(1);
                         <div class="footer__widget">
                             <div class="fw-title">
                                 <h5 class="sub-title">Follow me</h5>
-                                <h4 class="title">socially connect</h4>
+                                <h4 class="title">socially connected</h4>
                             </div>
                             <div class="footer__widget__social">
-                                <p>Lorem ipsum dolor sit amet enim. <br> Etiam ullamcorper.</p>
+                                <p>You can see my social media via</p>
     <ul class="footer__social__list">
-        <li><a href="{{ $allfooter->facebook }}"><i class="fab fa-facebook-f"></i></a></li>
-        <li><a href="{{ $allfooter->twitter }}"><i class="fab fa-twitter"></i></a></li>
-        <li><a href="#"><i class="fab fa-behance"></i></a></li>
-        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+        <li><a href="https://www.facebook.com/kara.kamaran.184"><i class="fab fa-facebook-f"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/kara-kamaran-86a081238/"><i class="fab fa-linkedin-in"></i></a></li>
+      
     </ul>
                             </div>
                         </div>

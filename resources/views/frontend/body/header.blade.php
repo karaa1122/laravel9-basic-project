@@ -13,8 +13,8 @@ $route = Route::current()->getName();
     <div class="menu__wrap">
     <nav class="menu__nav">
     <div class="logo">
-    <a href="index.html" class="logo__black"><img src="{{ asset('frontend/assets/img/logo/logo_black.png') }}" alt=""></a>
-    <a href="index.html" class="logo__white"><img src="{{ asset('frontend/assets/img/logo/logo_white.png') }}" alt=""></a>
+    <a href="index.html" class="logo__black"><img src="{{ asset('frontend/assets/img/logo/rash.png') }}" alt=""></a>
+    <a href="index.html" class="logo__white"><img src="{{ asset('frontend/assets/img/logo/spi.png') }}" alt=""></a>
     </div>
     <div class="navbar__wrap main__menu d-none d-xl-flex">
     <ul class="navigation">
@@ -24,16 +24,14 @@ $route = Route::current()->getName();
     <li class="{{ ($route == 'home.about')? 'active' : '' }}"><a href="{{ route('home.about') }}">About</a></li>
 
 
-    <li><a href="services-details.html">Services</a></li>
-
     <li class="{{ ($route == 'home.portfolio') ? 'active' : '' }}"><a href="{{ route('home.portfolio') }}">Portfolio</a>
          
     </li>    
 
-    <li class="{{ ($route == 'home.blog') ? 'active' : '' }}"><a href="{{ route('home.blog') }}">Our Blog</a>
+    <li class="{{ ($route == 'home.blog') ? 'active' : '' }}"><a href="{{ route('home.blog') }}">My Blog</a>
         
     </li>
-    <li class="{{ ($route == 'contact.me') ? 'active' : '' }}"><a href="{{ route('contact.me') }}">contact me</a></li>
+
     </ul>
     </div>
 
@@ -41,7 +39,7 @@ $route = Route::current()->getName();
 
 
     <div class="header__btn d-none d-md-block">
-    <a href="contact.html" class="btn">Contact me</a>
+
     </div>
     </nav>
     </div>
@@ -58,11 +56,8 @@ $route = Route::current()->getName();
     </div>
     <div class="social-links">
     <ul class="clearfix">
-    <li><a href="#"><span class="fab fa-twitter"></span></a></li>
-    <li><a href="#"><span class="fab fa-facebook-square"></span></a></li>
-    <li><a href="#"><span class="fab fa-pinterest-p"></span></a></li>
-    <li><a href="#"><span class="fab fa-instagram"></span></a></li>
-    <li><a href="#"><span class="fab fa-youtube"></span></a></li>
+
+
     </ul>
     </div>
     </nav>

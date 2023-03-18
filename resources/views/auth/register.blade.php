@@ -30,7 +30,7 @@
                         <div class="text-center mt-4">
                             <div class="mb-3">
                                 <a href="index.html" class="auth-logo">
-                                    <img src="{{ asset('backend/assets/images/logo-dark.png') }}" height="30" class="logo-dark mx-auto" alt="">
+                                    <img src="{{ asset('backend/assets/images/a.png') }}" height="30" class="logo-dark mx-auto" alt="">
                                     <img src="{{ asset('backend/assets/images/logo-light.png') }}" height="30" class="logo-light mx-auto" alt="">
                                 </a>
                             </div>
@@ -84,7 +84,7 @@
 
     <div class="form-group text-center row mt-3 pt-1">
         <div class="col-12">
-            <button class="btn btn-info w-100 waves-effect waves-light" type="submit">Register</button>
+            <button class="btn btn-dark w-100 waves-effect waves-light" type="submit">Register</button>
         </div>
     </div>
 

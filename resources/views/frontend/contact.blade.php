@@ -2,7 +2,7 @@
 @section('main')
 
 @section('title')
-Contact | EasyLearning Website
+Contact | Karaa kamaran
 @endsection
 
  <main>
@@ -82,7 +82,7 @@ Contact | EasyLearning Website
                                 </div>
                                 <div class="contact__info__content">
                                     <h4 class="title">address line</h4>
-                                    <span>Bowery St, New York, <br> NY 10013,USA</span>
+                                
                                 </div>
                             </div>
                         </div>
@@ -91,11 +91,7 @@ Contact | EasyLearning Website
                                 <div class="contact__info__icon">
                                     <img src="{{ asset('frontend/assets/img/icons/contact_icon02.png') }}" alt="">
                                 </div>
-                                <div class="contact__info__content">
-                                    <h4 class="title">Phone Number</h4>
-                                    <span>+1255 - 568 - 6523</span>
-                                    <span>+1255 - 568 - 6523</span>
-                                </div>
+                              \
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6">
@@ -106,7 +102,7 @@ Contact | EasyLearning Website
                                 <div class="contact__info__content">
                                     <h4 class="title">Mail Address</h4>
                                     <span>email@example.com</span>
-                                    <span>info@yourdomain.com</span>
+                                    <span>karaa.kamaran@gmail.com</span>  
                                 </div>
                             </div>
                         </div>
@@ -122,12 +118,12 @@ Contact | EasyLearning Website
                         <div class="row">
                             <div class="col-lg-6">
                                 <div class="section__title">
-                                    <span class="sub-title">07 - Say hello</span>
+                                    <span class="sub-title"> Say hello</span>
                                     <h2 class="title">Any questions? Feel free <br> to contact</h2>
                                 </div>
                                 <div class="homeContact__content">
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form</p>
-                                    <h2 class="mail"><a href="mailto:Info@webmail.com">Info@webmail.com</a></h2>
+
+                                    <h2 class="mail"><a href="karaa.kamaran@gmail.com">karaa.kamaran@gmail.com</a></h2>
                                 </div>
                             </div>
                             <div class="col-lg-6">

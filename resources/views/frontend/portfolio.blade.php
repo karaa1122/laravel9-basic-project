@@ -2,7 +2,7 @@
 @section('main')
 
 @section('title')
-PortFolio | EasyLearning Website
+PortFolio | Karaa kamaran
 @endsection
 
   <main>
@@ -80,12 +80,12 @@ PortFolio | EasyLearning Website
                         <div class="row">
                             <div class="col-lg-6">
                                 <div class="section__title">
-                                    <span class="sub-title">07 - Say hello</span>
+                                    <span class="sub-title"> Say hello</span>
                                     <h2 class="title">Any questions? Feel free <br> to contact</h2>
                                 </div>
                                 <div class="homeContact__content">
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form</p>
-                                    <h2 class="mail"><a href="mailto:Info@webmail.com">Info@webmail.com</a></h2>
+                             
+                                    <h2 class="mail"><a href="karaa.kamaran@gmail.com">karaa.kamaran@gmail.com</a></h2>
                                 </div>
                             </div>
                             <div class="col-lg-6">
