@@ -78,7 +78,7 @@
     
             </div>
             <div class="col-sm-5 mt-3">
-                <a href="{{ route('register') }}" class="text-muted"><i class="mdi mdi-account-circle"></i> Create an account</a>
+
             </div>
         </div>
     </form>

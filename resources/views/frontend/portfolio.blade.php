@@ -85,7 +85,7 @@ PortFolio | Karaa kamaran
                                 </div>
                                 <div class="homeContact__content">
                              
-                                    <h2 class="mail"><a href="karaa.kamaran@gmail.com">karaa.kamaran@gmail.com</a></h2>
+                                    <h2 class="mail"><a href="mailto:karaa.kamaran@gmail.com">karaa.kamaran@gmail.com</a></h2>
                                 </div>
                             </div>
                             <div class="col-lg-6">

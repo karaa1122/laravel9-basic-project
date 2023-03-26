@@ -81,6 +81,10 @@ About | karaa kamaran
             <button class="nav-link" id="awards-tab" data-bs-toggle="tab" data-bs-target="#awards" type="button"
                 role="tab" aria-controls="awards" aria-selected="false">Works</button>
         </li>
+        <li class="nav-item" role="presentation">
+            <button class="nav-link" id="eudcation-tab" data-bs-toggle="tab" data-bs-target="#education" type="button"
+                role="tab" aria-controls="education" aria-selected="false">Education</button>
+        </li>
     
     </ul>
     <div class="tab-content" id="myTabContent">
@@ -201,6 +205,20 @@ About | karaa kamaran
                 </div>
             </div>
         </div>
+
+        <div class="tab-pane fade" id="education" role="tabpanel" aria-labelledby="education-tab">
+            <div class="about__education__wrap">
+                <div class="row justify-content-center">
+                    <div class="col-md-6 col-sm-9">
+                        <div class="education__content">
+                            <h5 class="title">Salahaddin university erbil</h5>
+                            <p>Department of computer science</p>
+                        </div>
+
+
+                    </div>
+                </div>
+                </div>
       
 </div>
 </div>
@@ -208,6 +226,17 @@ About | karaa kamaran
 </div>
 </section>
 <!-- about-area-end -->
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 
 <!-- contact-area -->
@@ -217,12 +246,12 @@ About | karaa kamaran
 <div class="row">
 <div class="col-lg-6">
     <div class="section__title">
-        <span class="sub-title">07 - Say hello</span>
+        <span class="sub-title"> Say hello</span>
         <h2 class="title">Any questions? Feel free <br> to contact</h2>
     </div>
     <div class="homeContact__content">
      
-        <h2 class="mail"><a href="karaa.kamaran@gmail.com">karaa.kamaran@gmail.com</a></h2>
+        <h2 class="mail"><a href="mailto:karaa.kamaran@gmail.com">karaa.kamaran@gmail.com</a></h2>
     </div>
 </div>
 <div class="col-lg-6">

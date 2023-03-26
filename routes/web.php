@@ -11,6 +11,7 @@ use App\Http\Controllers\Home\BlogController;
 use App\Http\Controllers\Home\FooterController;
 use App\Http\Controllers\Home\ContactController;
 
+
 // Route::get('/', function () {
 //     return view('frontend.index');
 // }); 
@@ -26,21 +27,23 @@ Route::controller(DemoController::class)->group(function () {
 
 
  // Admin All Route 
-Route::middleware(['auth'])->group(function () {
+ Route::middleware(['auth'])->group(function () {
      
 
-Route::controller(AdminController::class)->group(function () {
-    Route::get('/admin/logout', 'destroy')->name('admin.logout');
-    Route::get('/admin/profile', 'Profile')->name('admin.profile');
-    Route::get('/edit/profile', 'EditProfile')->name('edit.profile');
-    Route::post('/store/profile', 'StoreProfile')->name('store.profile');
+    Route::controller(AdminController::class)->group(function () {
+        Route::get('/admin/logout', 'destroy')->name('admin.logout');
+        Route::get('/admin/profile', 'Profile')->name('admin.profile');
+        Route::get('/edit/profile', 'EditProfile')->name('edit.profile');
+        Route::post('/store/profile', 'StoreProfile')->name('store.profile');
+    
+        Route::get('/change/password', 'ChangePassword')->name('change.password');
+        Route::post('/update/password', 'UpdatePassword')->name('update.password');
+         
+    });
+    
+    });
+    
 
-    Route::get('/change/password', 'ChangePassword')->name('change.password');
-    Route::post('/update/password', 'UpdatePassword')->name('update.password');
-     
-});
-
-});
 
 
  // Home Slide All Route 
@@ -145,7 +148,14 @@ Route::get('/dashboard', function () {
     return view('admin.index');
 })->middleware(['auth'])->name('dashboard');
 
+
+
+
 require __DIR__.'/auth.php';
+
+
+
+
 
 
 // Route::get('/contact', function () {
